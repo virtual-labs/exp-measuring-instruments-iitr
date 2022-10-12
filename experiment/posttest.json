@@ -1,39 +1,5 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[{"question":"Which of the following method of measurement does a bridge circuit uses?","answers":{"a":"relative","b":"comparison","c":"absolute","d":"differential"},"correctAnswer":"b"},
+{"question":"How is the measurement accuracy in a bridge circuit?","answers":{"a":"low","b":"medium","c":"inaccurate","d":"high"},"correctAnswer":"d"},
+{"question":"What is the main source of error in a null detector?","answers":{"a":"sufficient sensitivity of the null detector","b":"wiring resistancein","c":"lower current detection ability","d":"Volts/kWh"},"correctAnswer":"a"},
+{"question":"When a bridge is balanced?","answers":{"a":"no current flows","b":"temperature of the circuit is high","c":"power dissipation is high","d":"no voltage drop across the circuit"},"correctAnswer":"a"},
+{"question":"The output frequency of an oscillator is _______","answers":{"a":"unstable and variable","b":"stable and fixed","c":"unstable and fixed","d":"stable and adjustable"},"correctAnswer":"d"}]
