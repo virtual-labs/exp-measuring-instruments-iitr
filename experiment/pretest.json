@@ -1,39 +1,5 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[{"question":"What is the dependence of frequency on the balance equation?","answers":{"a":"varies by a factor of 2","b":"depends on the detector used","c":"independent","d":"depends on the supply magnitude"},"correctAnswer":"c"},
+{"question":"Which of the following is the guarding arm?","answers":{"a":"capacitance C","b":"resistance R","c":"parallel RC combination","d":"series RC combination"},"correctAnswer":"c"},
+{"question":"How is the voltage ratio dependent on the frequency?","answers":{"a":"they aid each other","b":"depends on the setup of the circuit","c":"they are independent of each other","d":"they oppose each other"},"correctAnswer":"d"},
+{"question":"Potential transformers are used to measure _________.","answers":{"a":"high currents","b":"low voltages","c":"high voltages","d":"low currents"},"correctAnswer":"c"},
+{"question":"In A.C. circuits, power is measured using ________.","answers":{"a":"ammeter","b":"wattmeter","c":"voltmeter","d":"ohmmeter"},"correctAnswer":"c"}]
