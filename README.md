@@ -4,7 +4,7 @@
 <b>Discipline | <b>Electrical Engineering
 :--|:--|
 <b> Lab | <b> Electrical Measurements Lab
-<b> Experiment|     <b> Familiarization with measuring instruments
+<b> Experiment|     <b>1. Familiarization with measuring instruments
 
 ### About the Experiment 
 
