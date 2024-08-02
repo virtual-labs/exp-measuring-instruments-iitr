@@ -1,50 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Virtual Labs | Familiarization with Measuring Instruments</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
-        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-        <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <title>Virtual Labs | Familiarization with Measuring Instruments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="icon" href="./images/Vlab logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="./images/Vlab logo.jpg" type="image/x-icon">
 
-        
+
 </head>
 
 <body data-demo-id="animation">
-	<div class="box" style="position: absolute;">
-		<div class="container1" style="position:absolute;">
-			<img src="images\logo.png" width="95px" height="92.5px" style="margin-left: 5px; float: left;" >
-			<center><h2 >Virtual Labs IIT Roorkee<br>Electrical Measurements Laboratory<br></h2>
-			<h2 style="background-color: black;">Familiarization with Measuring Instruments</h2></center>
+  <div class="box" style="position: absolute;">
+    <div class="container1" style="position:absolute;">
+      <img src="images\logo.png" width="95px" height="92.5px" style="margin-left: 5px; float: left;">
+      <center>
+        <h2>Virtual Labs IIT Roorkee<br>Electrical Measurements Laboratory<br></h2>
+        <h2 style="background-color: black;">Familiarization with Measuring Instruments</h2>
+      </center>
 
     </div>
 
-			<div style="position: relative; margin-top: 100px;"><br>
+    <div style="position: relative; margin-top: 100px;"><br>
 
-      </div>
-      <div><img src="images\pow.png"  width="360px" height="430px" style="margin-left:85px; margin-top:80px; position:absolute;" ></div>
-      <div class="theory" style="position:absolute; text-align: justify; width: 810px; font-size: 25px;">
-        <!--theory div-->
-        <b><center>POWER FACTOR METER</center></b>
+    </div>
+    <div><img src="images\pow.png" width="360px" height="430px"
+        style="margin-left:85px; margin-top:80px; position:absolute;"></div>
+    <div class="theory" style="position:absolute; text-align: justify; width: 810px; font-size: 25px;">
+      <!--theory div-->
+      <b>
+        <center>POWER FACTOR METER</center>
+      </b>
 
-        <p>
-   *The power factor meter measures the power factor of a transmission system.<br><br>
-   *The power factor is the cosine of the angle between the voltage and current.<br><br>
-   *The power factor meter determines the types of load using on the line and it also calculates the losses occur on it.<br>
-       </p>
+      <p style="font-size: 17px;">
+        A power factor meter is an instrument used to measure the power factor in an electrical system. The power factor
+        is a crucial parameter that indicates the efficiency with which electrical power is being converted into useful
+        work output. It is defined as the ratio of real power (measured in watts) to apparent power (measured in
+        volt-amperes) and is a measure of how effectively electrical power is being used. A power factor of 1 (or 100%)
+        indicates that all the power is being used effectively, whereas a power factor less than 1 indicates
+        inefficiencies.<br><br>
 
-      </div>
+        <b style="font-size: 20px;">Working Principle</b><br><br>
 
-      <div class="pbutton" id="check-button" style="position:absolute; left: 0em; top: 653px;box-shadow: 5px 5px 5px darkgreen;" onclick="window.location.href ='meter.html';">&laquo;  Previous</div>
-       <div class="button" id="check-button" style="position:absolute; left: 1em; top: 653px;box-shadow: 5px 5px 5px darkgreen;" onclick="window.location.href = 'cro.html';">Next  &raquo;</div>
+        A power factor meter works by measuring the phase difference between the voltage and the current waveforms. In
+        an AC circuit, the current and voltage may not be in phase, and this phase difference causes a reduction in the
+        power factor. The meter calculates the cosine of the phase angle (cos 𝜙), which is the power factor. The steps typically involved are:<br><br>
 
-      <div class="copyright" style="position:absolute">&#169 2022 Virtual Labs, IIT Roorkee</div>
+        <b>1. Voltage Measurement:</b> The voltage sensing circuit measures the RMS (root mean square) value of the voltage.<br><br>
+        <b>2. Current Measurement:</b> The current sensing circuit measures the RMS value of the current.<br><br>
+        <b>3. Phase Angle Determination:</b> The phase detection circuit calculates the phase difference between the current and
+        voltage.<br><br>
+        <b>4. Power Factor Calculation:</b> Using the formula Power Factor = cos(𝜙), where 𝜙 is the phase angle, the power factor is computed.<br><br>
+        <b>5. Display:</b> The calculated power factor is displayed on the meter.
+      </p>
 
-     </div>
+    </div>
 
-     </body>
-     </html>
+    <div class="pbutton" id="check-button"
+      style="position:absolute; left: 0em; top: 653px;box-shadow: 5px 5px 5px darkgreen;"
+      onclick="window.location.href ='meter.html';">&laquo; Previous</div>
+    <div class="button" id="check-button"
+      style="position:absolute; left: 1em; top: 653px;box-shadow: 5px 5px 5px darkgreen;"
+      onclick="window.location.href = 'cro.html';">Next &raquo;</div>
+
+    <div class="copyright" style="position:absolute">&#169 2022 Virtual Labs, IIT Roorkee</div>
+
+  </div>
+
+</body>
+
+</html>
